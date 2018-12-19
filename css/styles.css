@@ -137,6 +137,18 @@ ul.links3 li a#orange {
 @font-face {
   font-family: Bulgaria;
   src: url(../fonts/Bulgaria.otf); }
+.mob {
+  display: none; }
+  @media (max-width: 600px) {
+    .mob {
+      display: block; } }
+
+.desk {
+  display: block; }
+  @media (max-width: 600px) {
+    .desk {
+      display: none; } }
+
 .logo {
   cursor: pointer;
   position: absolute;
@@ -156,6 +168,10 @@ ul.links3 li a#orange {
   width: 30px;
   height: 30px;
   margin-right: 10px; }
+
+svg#twitter, svg#facebook {
+  fill: #cccccc;
+  stroke-width: 1px; }
 
 body {
   margin: 0;
