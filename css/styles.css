@@ -170,7 +170,7 @@ ul.links3 li a#orange {
   margin-right: 10px; }
 
 svg#twitter, svg#facebook {
-  fill: #cccccc;
+  fill: #f9fdfb;
   stroke-width: 1px; }
 
 body {
@@ -204,6 +204,9 @@ body {
     margin: auto;
     letter-spacing: 3px;
     z-index: 10; }
+    @media (max-width: 600px) {
+      #header h1 {
+        font-size: 10vw; } }
 
 #content h3 {
   width: 60%;
