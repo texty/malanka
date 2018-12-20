@@ -202,6 +202,8 @@ body {
     z-index: 10; }
   #header h1 {
     margin: auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     line-height: 1.2;
@@ -216,6 +218,8 @@ body {
       #header h1 {
         font-size: 10vw; } }
   #header h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     color: white;
@@ -231,6 +235,15 @@ body {
   @media (max-width: 600px) {
     #content h3 {
       width: 80%; } }
+#content #credits {
+  width: 60%;
+  margin: auto; }
+#content h5 {
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  margin: 50px 0;
+  text-align: right; }
 #content p {
   font-size: 18px;
   width: 60%;
