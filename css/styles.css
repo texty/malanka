@@ -266,7 +266,9 @@ body {
   color: white;
   background-color: #ff735d; }
 #content img {
-  width: 100%;
-  margin: 30px 0; }
+  display: block;
+  width: auto;
+  max-height: 100vh;
+  margin: 30px auto 30px auto; }
 
 /*# sourceMappingURL=styles.css.map */
